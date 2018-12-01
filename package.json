@@ -1,0 +1,26 @@
+{
+  "name": "idsplit",
+  "version": "0.0.1",
+  "description": "Split HTML into a minimal map from ids, for nice change detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov test*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/idsplit.git"
+  },
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/idsplit/issues"
+  },
+  "homepage": "https://github.com/sandhawke/idsplit#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^4.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
